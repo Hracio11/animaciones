@@ -1,0 +1,10 @@
+Como agregar un slider a mi proyeco web
+
+en esta ocasion vamos a agregar Slick Slider.
+lo primero que debemos agregar a nuestro proyecto es Jquery
+para ello lo googleamos "jquery.cdn" y entramos al primer resultado. 
+Elegimos la version 2.x minificada y lo pegamos antes de cerrar el body [</body>]
+
+Una vez tenemos jquery instalamos Slick slider. en su pagina web hay una seccion llamada "get it now"
+donde encontramos el css y js que debemos agregar. el Css lo ponemos antes de cerrar el </head>
+y el js lo pegamos antes de cerrar el </body>, pero si siempre debe estar debajo del archivo jquery.

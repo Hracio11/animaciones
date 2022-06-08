@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animaciones!!!</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+</head>
+<body>
+    <div class="single-item">
+        <div><img src="https://laverdadnoticias.com/__export/1595019732831/sites/laverdad/img/2020/07/17/naruto_uzumaki.png_759710130.png" alt=""></div>
+        <div><img src="https://www.geekmi.news/__export/1621040955958/sites/debate/img/2021/05/14/kakashivobito1.jpg_641430779.jpg" alt=""></div>
+        <div><img src="https://www.egames.news/__export/1623693804178/sites/debate/img/2021/06/14/copia_de_egames_-_2021-06-14t115944_249.jpg_759710130.jpg" alt=""></div>
+    </div>
+
+    <div class="multiple-items">
+        <div><img src="https://laverdadnoticias.com/__export/1595019732831/sites/laverdad/img/2020/07/17/naruto_uzumaki.png_759710130.png" alt=""></div>
+        <div><img src="https://www.geekmi.news/__export/1621040955958/sites/debate/img/2021/05/14/kakashivobito1.jpg_641430779.jpg" alt=""></div>
+        <div><img src="https://www.egames.news/__export/1623693804178/sites/debate/img/2021/06/14/copia_de_egames_-_2021-06-14t115944_249.jpg_759710130.jpg" alt=""></div>
+        <div><img src="https://www.geekmi.news/__export/1653505339885/sites/debate/img/2022/05/25/disexo_x17x.jpg_759710130.jpg" alt=""></div>
+        <div><img src="https://pbs.twimg.com/media/DglFHFwW4AEhd98.jpg" alt=""></div>
+        <div><img src="https://www.egames.news/__export/1623693804178/sites/debate/img/2021/06/14/copia_de_egames_-_2021-06-14t115944_249.jpg_759710130.jpg" alt=""></div>
+    </div>
+
+    <div class="center">
+        <div><img src="https://laverdadnoticias.com/__export/1595019732831/sites/laverdad/img/2020/07/17/naruto_uzumaki.png_759710130.png" alt=""></div>
+        <div><img src="https://www.geekmi.news/__export/1621040955958/sites/debate/img/2021/05/14/kakashivobito1.jpg_641430779.jpg" alt=""></div>
+        <div><img src="https://www.egames.news/__export/1623693804178/sites/debate/img/2021/06/14/copia_de_egames_-_2021-06-14t115944_249.jpg_759710130.jpg" alt=""></div>
+        <div><img src="https://www.geekmi.news/__export/1653505339885/sites/debate/img/2022/05/25/disexo_x17x.jpg_759710130.jpg" alt=""></div>
+        <div><img src="https://pbs.twimg.com/media/DglFHFwW4AEhd98.jpg" alt=""></div>
+        <div><img src="https://laverdadnoticias.com/__export/1611175447938/sites/laverdad/img/2021/01/20/rock_lee_naruto_pesas.jpg_821220842.jpg" alt=""></div>
+        <div><img src="https://www.egames.news/__export/1623693804178/sites/debate/img/2021/06/14/copia_de_egames_-_2021-06-14t115944_249.jpg_759710130.jpg" alt=""></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>$('.single-item').slick({
+        autoplay: true,
+        autoplaySpeed: 800,
+        fade: true,
+        speed: 2000
+      });</script>
+    <script>$('.multiple-items').slick({
+        autoplay: true,
+        autoplaySpeed: 2000,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 2
+      });
+    </script>
+    <script>$('.center').slick({
+         autoplay: true,
+        autoplaySpeed: 2000,
+        centerMode: true,
+        centerPadding: '60px',
+        slidesToShow: 3,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '25000px',
+              slidesToShow: 3
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '5000px',
+              slidesToShow: 1
+            }
+          }
+        ]
+      });</script>
+</body>
+</html>
